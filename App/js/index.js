@@ -34,6 +34,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button14")
                 .setDirtyMark(false)
+                .setRotate(81)
                 .setLeft("15em")
                 .setTop("35.833333333333336em")
                 .setCaption("Button")
