@@ -30,6 +30,15 @@ xui.Class('App', 'xui.Module',{
                 .setSrc("{/}img/PDFtoJPG.me-1.jpg")
             );
             
+            append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button11")
+                .setDirtyMark(false)
+                .setLeft("37.5em")
+                .setTop("25em")
+                .setCaption("Button")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
