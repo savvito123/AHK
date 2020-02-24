@@ -34,8 +34,10 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button11")
                 .setDirtyMark(false)
-                .setLeft("37.5em")
+                .setLeft("27.5em")
                 .setTop("25em")
+                .setWidth("13.75em")
+                .setHeight("7em")
                 .setCaption("Button")
             );
             
