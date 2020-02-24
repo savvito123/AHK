@@ -37,7 +37,7 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("35.833333333333336em")
                 .setTop("25em")
                 .setWidth("5.416666666666667em")
-                .setHeight("2.8333333333333335em")
+                .setHeight("9.5em")
                 .setCaption("Button")
             );
             
