@@ -25,6 +25,8 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_image6")
                 .setLeft("0em")
                 .setTop("0em")
+                .setWidth("595em")
+                .setHeight("842em")
                 .setSrc("{/}img/PDFtoJPG.me-1.jpg")
             );
             
