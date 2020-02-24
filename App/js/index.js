@@ -34,10 +34,21 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button14")
                 .setDirtyMark(false)
-                .setRotate(81)
-                .setLeft("15em")
-                .setTop("35.833333333333336em")
+                .setLeft("0.8333333333333334em")
+                .setTop("45em")
                 .setCaption("Button")
+                .onClick([
+                    {
+                        "desc":"Action 1",
+                        "type":"other",
+                        "target":"callback",
+                        "args":[
+                            "{page.hide()}"
+                        ],
+                        "method":"call",
+                        "event":1
+                    }
+                ])
             );
             
             return children;
